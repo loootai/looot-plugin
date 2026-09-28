@@ -1,0 +1,28 @@
+{
+  "name": "looot",
+  "description": "Search, price and run data APIs (SEO, enrichment, email, social) from one account, billed per call.",
+  "owner": {
+    "name": "looot",
+    "url": "https://looot.ai"
+  },
+  "plugins": [
+    {
+      "name": "looot",
+      "source": "./plugins/claude-code/looot",
+      "description": "Search, price and run data APIs (SEO, enrichment, email, social) from one account, billed per call.",
+      "version": "0.1.0",
+      "category": "data",
+      "keywords": [
+        "mcp",
+        "data-apis",
+        "seo",
+        "serp",
+        "enrichment",
+        "email-verification",
+        "social",
+        "pay-per-call"
+      ],
+      "homepage": "https://looot.ai/docs"
+    }
+  ]
+}
