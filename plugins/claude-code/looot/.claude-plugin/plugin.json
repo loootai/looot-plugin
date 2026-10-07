@@ -7,7 +7,7 @@
     "name": "looot",
     "url": "https://looot.ai"
   },
-  "homepage": "https://looot.ai/docs",
+  "homepage": "https://looot.ai",
   "keywords": [
     "mcp",
     "data-apis",
@@ -19,5 +19,9 @@
     "pay-per-call"
   ],
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://looot.ai/privacy"
+  "privacyPolicyUrl": "https://looot.ai/privacy",
+  "supportUrl": "https://looot.ai/contact",
+  "repository": "https://github.com/loootai/looot-plugin",
+  "documentationUrl": "https://docs.looot.ai",
+  "termsOfServiceUrl": "https://looot.ai/terms"
 }
