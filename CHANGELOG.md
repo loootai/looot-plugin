@@ -4,6 +4,7 @@
 
 - First public release under the MIT license.
 - Install from `loootai/looot-plugin`.
+- One `looot` skill replaces the seven earlier ones, next to the full looot MCP server.
 
 ## 0.1.0
 

@@ -12,7 +12,7 @@ for p in market["plugins"]:
     text = json.dumps(mcp)
     if "https://api.looot.ai/mcp" not in text: errors.append(".mcp.json does not point at the looot MCP")
     if "Authorization" in text or "Bearer" in text: errors.append(".mcp.json must not carry a token")
-    if len(list((folder / "skills").glob("*/SKILL.md"))) < 5: errors.append("expected at least 5 skills")
+    if len(list((folder / "skills").glob("*/SKILL.md"))) < 1: errors.append("expected the looot skill")
 for f in root.rglob("*.json"):
     if ".git" in f.parts: continue
     if "@" in f.read_text() and "email" in f.read_text(): errors.append(f"email field left in {f}")
