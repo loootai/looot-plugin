@@ -1,7 +1,7 @@
 {
   "name": "looot",
   "displayName": "looot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Find, price and run data APIs for SEO, enrichment, email verification and social from one account. Pay per call, no provider keys.",
   "author": {
     "name": "looot",

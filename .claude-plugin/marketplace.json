@@ -10,7 +10,7 @@
       "name": "looot",
       "source": "./plugins/claude-code/looot",
       "description": "Search, price and run data APIs (SEO, enrichment, email, social) from one account, billed per call.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "data",
       "keywords": [
         "mcp",
