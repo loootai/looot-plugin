@@ -3,12 +3,12 @@
 The looot plugin for Claude Code, Codex and Cursor: the looot MCP server (https://api.looot.ai/mcp,
 browser sign-in, no key in any file) plus skills that take an agent from sign-in to a paid result.
 
-Proprietary, all rights reserved. Not open source. This repository is private.
+MIT licensed. The hosted looot service it connects to has its own terms: https://looot.ai/terms
 
 ## Install (Claude Code)
 
 ```text
-/plugin marketplace add walidboulanouar/looot-plugin
+/plugin marketplace add loootai/looot-plugin
 /plugin install looot@looot
 /mcp   (pick plugin:looot:looot, then Authenticate)
 ```

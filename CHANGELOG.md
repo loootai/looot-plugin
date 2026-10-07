@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.2.0 (2026-10-07)
+
+- First public release under the MIT license.
+- Install from `loootai/looot-plugin`.
+
+## 0.1.0
 
 - Plugin shell: `plugin.json`, `marketplace.json`, `.mcp.json` pointing at the hosted MCP
   server with OAuth.
