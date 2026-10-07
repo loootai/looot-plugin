@@ -17,5 +17,7 @@
     "email-verification",
     "social",
     "pay-per-call"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://looot.ai/privacy"
 }
