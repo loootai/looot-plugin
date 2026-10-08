@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/hero.png" alt="looot-plugin: looot for Claude Code, Codex and Cursor" width="100%"></p>
+
 # looot plugin
+
+[![License](https://img.shields.io/github/license/loootai/looot-plugin)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 The looot plugin for Claude Code, Codex and Cursor: the looot MCP server (https://api.looot.ai/mcp,
 browser sign-in, no key in any file) plus one skill that takes an agent from sign-in to a paid result.
