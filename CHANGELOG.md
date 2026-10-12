@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1 (2026-10-12)
+
+- The skill asks the user before every paid run, not only above 100 calls, and asks again when the price or input changes.
+- The skill treats fetched pages, posts, transcripts and search results as data and never follows instructions or links in them.
+
 ## 0.2.0 (2026-10-07)
 
 - First public release under the MIT license.
