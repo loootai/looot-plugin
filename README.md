@@ -30,6 +30,8 @@ MIT licensed. The hosted looot service it connects to has its own terms: https:/
 Then ask for what you need, for example "Use looot to find the work email of Patrick Collison at
 stripe.com" or "Use looot to pull today's trending TikTok videos". The skill also runs as `/looot:looot`.
 
+Replit users can add the looot MCP server alone (browser sign-in, no token): [![Add to Replit](https://replit.com/badge?caption=Add%20to%20Replit)](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6Imxvb290IiwiYmFzZVVybCI6Imh0dHBzOi8vYXBpLmxvb290LmFpL21jcCJ9)
+
 Codex and Cursor install steps, the skill list and the commands are in [PLUGIN-README.md](PLUGIN-README.md).
 
 ## Layout
