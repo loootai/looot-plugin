@@ -24,7 +24,7 @@ codex plugin add looot@looot
 codex mcp login looot
 ```
 
-Cursor: copy `plugins/cursor/looot` into `~/.cursor/plugins/local` and reload the window; the Cursor Marketplace takes a public repository at cursor.com/marketplace/publish.
+Cursor: copy `plugins/cursor/looot` into `~/.cursor/plugins/local` and reload the window; the Cursor Marketplace takes a public repository at cursor.com/marketplace/publish. Also listed on [cursor.directory](https://cursor.directory/plugins/looot).
 
 Tested by hand: the Claude Code and Codex installs (marketplace add, install, the server waiting for sign-in). Cursor follows its published format and is not tested yet.
 
