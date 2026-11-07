@@ -4,8 +4,8 @@
 set -euo pipefail
 SRC="${1:?path to the generated plugin folder}"
 cd "$(dirname "$0")/.."
-rm -rf .claude-plugin .agents .cursor-plugin plugins
-cp -R "$SRC/.claude-plugin" "$SRC/.agents" "$SRC/.cursor-plugin" "$SRC/plugins" .
+rm -rf .claude-plugin .agents .cursor-plugin .codebuddy-plugin kimi.plugin.json plugins
+cp -R "$SRC/.claude-plugin" "$SRC/.agents" "$SRC/.cursor-plugin" "$SRC/.codebuddy-plugin" "$SRC/kimi.plugin.json" "$SRC/plugins" .
 cp "$SRC/README.md" PLUGIN-README.md
 python3 - <<'PY'
 import json, glob
