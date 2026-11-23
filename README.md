@@ -32,6 +32,11 @@ stripe.com" or "Use looot to pull today's trending TikTok videos". The skill als
 
 Replit users can add the looot MCP server alone (browser sign-in, no token): [![Add to Replit](https://replit.com/badge?caption=Add%20to%20Replit)](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6Imxvb290IiwiYmFzZVVybCI6Imh0dHBzOi8vYXBpLmxvb290LmFpL21jcCJ9)
 
+CodeBuddy: `/plugin marketplace add loootai/looot-plugin`, then `/plugin install looot@looot`.
+Kimi Code: `/plugins install https://github.com/loootai/looot-plugin`, then `/mcp-config login looot`.
+Antigravity: clone this repo, then `agy plugin install ./plugins/antigravity/looot`.
+Kiro: Powers panel, Add Custom Power, Import from GitHub URL, `https://github.com/loootai/looot-plugin/tree/main/plugins/kiro/looot`.
+
 Codex and Cursor install steps, the skill list and the commands are in [PLUGIN-README.md](PLUGIN-README.md).
 
 ## Layout
@@ -44,10 +49,15 @@ Codex and Cursor install steps, the skill list and the commands are in [PLUGIN-R
 | `plugins/claude-code/looot/` | Claude Code plugin: `.mcp.json` and the `looot` skill |
 | `plugins/codex/looot/` | Codex plugin |
 | `plugins/cursor/looot/` | Cursor plugin |
+| `.codebuddy-plugin/marketplace.json` | CodeBuddy marketplace, same catalog as Claude Code |
+| `kimi.plugin.json` | Kimi Code plugin manifest (MCP server inline, skills in `plugins/kimi/looot/`) |
+| `plugins/antigravity/looot/` | Antigravity plugin: `.antigravity-plugin/plugin.json`, `mcp_config.json`, logo |
+| `plugins/kiro/looot/` | Kiro power: `plugin.json`, `mcp.json`, README |
 
 These files are generated. Change them at the source and run `scripts/sync-from-monorepo.sh`, never by hand.
 
 ## Status
 
-Installs tested by hand in Claude Code and Codex (up to "waiting for sign-in"). Cursor follows its
-published format and is not tested yet.
+Installs tested by hand in Claude Code and Codex (up to "waiting for sign-in"), and in CodeBuddy Code
+2.179 (marketplace add, install, enabled). `agy plugin validate --strict` passes on the Antigravity
+folder. Cursor, Kimi Code and Kiro follow their published formats and are not tested yet.

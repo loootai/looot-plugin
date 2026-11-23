@@ -1,0 +1,29 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "looot",
+  "displayName": "looot",
+  "version": "0.2.0",
+  "description": "Find, price and run data APIs for SEO, enrichment, email verification and social from one account. Pay per call, no provider keys.",
+  "logo": "assets/icon.png",
+  "author": {
+    "name": "looot",
+    "url": "https://looot.ai"
+  },
+  "homepage": "https://looot.ai/docs",
+  "repository": "https://github.com/loootai/looot-plugin",
+  "keywords": [
+    "mcp",
+    "data-apis",
+    "seo",
+    "serp",
+    "enrichment",
+    "email-verification",
+    "social",
+    "pay-per-call"
+  ],
+  "suggestedPrompts": [
+    "Find the work email for the head of marketing at stripe.com and verify it.",
+    "Pull monthly search volume for these five keywords in the US.",
+    "Enrich the company behind notion.so: size, industry, funding."
+  ]
+}
